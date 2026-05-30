@@ -1,54 +1,130 @@
-# React + TypeScript + Vite
+# Sport Nutrition Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Sport Nutrition Frontend is a web application designed to promote healthy habits related to exercise, nutrition and injury prevention through an accessible and interactive user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The platform was developed as part of the Sport Nutrition project and serves as the user-facing interface connected to the backend API developed with ASP.NET Core.
 
-## Expanding the ESLint configuration
+The application provides users with information related to nutrition, physical activity and wellness while integrating support tools such as chatbot assistance.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Objectives
+
+* Promote healthy lifestyle habits.
+* Improve access to nutrition-related information.
+* Encourage exercise and injury prevention.
+* Provide an intuitive and user-friendly experience.
+* Support user interaction through chatbot integration.
+
+---
+
+## Features
+
+* Responsive user interface
+* Nutrition-focused content
+* Exercise-related information
+* Injury prevention guidance
+* Interactive navigation
+* Chatbot integration using Tidio
+* Backend API integration
+
+---
+
+## Technologies Used
+
+### Frontend
+
+* HTML
+* CSS
+* JavaScript
+
+### Deployment
+
+* Vercel
+
+### Integrations
+
+* Tidio Chatbot
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## System Integration
+
+The frontend communicates with a backend API developed using:
+
+* ASP.NET Core
+* C#
+* SQL Server
+* Entity Framework Core
+
+The backend handles business logic, database management and API services.
+
+---
+
+## My Contributions
+
+* Frontend development
+* User interface implementation
+* API integration support
+* User experience improvements
+* Collaborative development
+
+---
+
+## Screenshots
+
+### Home Page
+
+*Add screenshot here*
+
+### Nutrition Section
+
+*Add screenshot here*
+
+### Exercise Section
+
+*Add screenshot here*
+
+### Chatbot Integration
+
+*Add screenshot here*
+
+### Responsive Design
+
+*Add screenshot here*
+
+---
+
+## Live Demo
+
+https://front-end-sport-nutrition-l8it.vercel.app/ 
+
+## Repository Structure
+
+```bash
+public/
+src/
+assets/
+components/
+pages/
+README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Academic Purpose
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This project was developed as an academic initiative focused on web development, healthy lifestyle promotion and user-centered digital experiences.
+
+---
+
+## License
+
+This project is intended for academic and educational purposes.
