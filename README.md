@@ -66,6 +66,9 @@ The frontend communicates with a backend API developed using:
 
 The backend handles business logic, database management and API services.
 
+## Backend
+https://github.com/KevinTib2024/sport-nutrition-platform.git 
+
 ---
 
 ## My Contributions
@@ -81,24 +84,16 @@ The backend handles business logic, database management and API services.
 ## Screenshots
 
 ### Home Page
+![Home](assets/screenshots/ChatBot-Inicio.png)
 
-*Add screenshot here*
+### ChatBot 
+![Home](assets/screenshots/ChatBot-Tidio.png)
 
-### Nutrition Section
+### Register
+![Chatbot](assets/screenshots/Registro.png)
 
-*Add screenshot here*
-
-### Exercise Section
-
-*Add screenshot here*
-
-### Chatbot Integration
-
-*Add screenshot here*
-
-### Responsive Design
-
-*Add screenshot here*
+### Login
+![Swagger](assets/screenshots/Login.png)
 
 ---
 
